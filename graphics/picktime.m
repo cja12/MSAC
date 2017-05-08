@@ -29,6 +29,8 @@ plot(s.t, s.d,'k-');
 grid on
 xlabel('Time (Seconds)','Fontname','Helvetica','Fontsize',14);
 %
+title(s_in.filename,'Interpreter','None')
+%
 ok = 1;
 while (ok == 1)
 	%

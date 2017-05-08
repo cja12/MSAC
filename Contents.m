@@ -4,7 +4,7 @@
 % Not all of these are complete or well tested. Use at your own risk.
 %
 % Author:	Charles J. Ammon, Saint Louis University / Penn State
-% Developed: 	2000/2001
+% Developed: 	2000/2001/2017
 %
 % Author:	George E. Randall, LANL (Array processing functions)
 % Developed: 	After 2000/2001
@@ -33,6 +33,8 @@
 %
 % Filtering commands:
 %
+%	hpfilter	- Highpass filter the signal (Butterworth).
+%	lpfilter	-  Lowpass filter the signal (Butterworth).
 %	srgfilter	- Frequency-Domain convolution with a Rftn Gaussian filter.
 %	strifilter	- Frequency-Domain convolution with a Triangle filter.
 %	sswgfilter	- Frequency-Domain convolution with a surface-wave Gaussian filter.
@@ -40,6 +42,8 @@
 % General Processing Commands:
 %
 %	srmean		- Remove the mean from the seismogram.
+%	sdif		- Differentiate the seismogram.
+%	sint		- Integrate the seismogram.
 %	scut		- Cut a SAC seismogram structure.
 %	staper		- Taper the seismogram file with a cosine taper.
 %	scentroid	- Compute the centroid of a SAC seismogram structure.
