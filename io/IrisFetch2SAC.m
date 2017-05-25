@@ -30,6 +30,9 @@ sh.khole = fetchObject.location;
 sh.kcmpnm = fetchObject.channel;           
 sh.knetwk = fetchObject.network;
 %
+sh.user0 = fetchObject.sensitivity;
+sh.kuser0 = fetchObject.sensitivityUnits;
+%
 sh.stla = fetchObject.latitude;
 sh.stlo = fetchObject.longitude;
 sh.stel = fetchObject.elevation;
