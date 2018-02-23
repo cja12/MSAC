@@ -13,7 +13,7 @@ function x = sint(s)
 for ns = 1:nseis
     %
     x(ns) = s(ns);
-    dh = 1.0/x(ns).delta;
+    dh = x(ns).delta;
     x(ns).d = dh*cumsum(s(ns).d);
     %
     % reset the header amplitude values
